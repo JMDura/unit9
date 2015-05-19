@@ -37,9 +37,6 @@ public class CadenasAlumnoTest {
     public void tearDown() {
     }
 
-    /**
-     * Test of longitudCadena method, of class CadenasAlumno.
-     */
     @Test
     public void testLongitudCadena() {
         System.out.println("longitudCadena");
@@ -48,13 +45,8 @@ public class CadenasAlumnoTest {
         int expResult = 0;
         int result = instance.longitudCadena(cadena);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of sonIguales method, of class CadenasAlumno.
-     */
     @Test
     public void testSonIguales() {
         System.out.println("sonIguales");
@@ -64,13 +56,8 @@ public class CadenasAlumnoTest {
         boolean expResult = false;
         boolean result = instance.sonIguales(cadena1, cadena2);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of esMayor method, of class CadenasAlumno.
-     */
     @Test
     public void testEsMayor() {
         System.out.println("esMayor");
@@ -80,13 +67,8 @@ public class CadenasAlumnoTest {
         boolean expResult = false;
         boolean result = instance.esMayor(cadena1, cadena2);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of esMenor method, of class CadenasAlumno.
-     */
     @Test
     public void testEsMenor() {
         System.out.println("esMenor");
@@ -96,13 +78,8 @@ public class CadenasAlumnoTest {
         boolean expResult = false;
         boolean result = instance.esMenor(cadena1, cadena2);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of comparaIgnorandoMayusculas method, of class CadenasAlumno.
-     */
     @Test
     public void testComparaIgnorandoMayusculas() {
         System.out.println("comparaIgnorandoMayusculas");
@@ -112,13 +89,8 @@ public class CadenasAlumnoTest {
         boolean expResult = false;
         boolean result = instance.comparaIgnorandoMayusculas(cadena1, cadena2);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of convertirMayusculas method, of class CadenasAlumno.
-     */
     @Test
     public void testConvertirMayusculas() {
         System.out.println("convertirMayusculas");
@@ -127,13 +99,8 @@ public class CadenasAlumnoTest {
         String expResult = "";
         String result = instance.convertirMayusculas(cadena);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of convertirMinusculas method, of class CadenasAlumno.
-     */
     @Test
     public void testConvertirMinusculas() {
         System.out.println("convertirMinusculas");
@@ -142,13 +109,8 @@ public class CadenasAlumnoTest {
         String expResult = "";
         String result = instance.convertirMinusculas(cadena);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of reemplazaPrimero method, of class CadenasAlumno.
-     */
     @Test
     public void testReemplazaPrimero() {
         System.out.println("reemplazaPrimero");
@@ -159,13 +121,8 @@ public class CadenasAlumnoTest {
         String expResult = "";
         String result = instance.reemplazaPrimero(cadena, regla, cambio);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of posicionPrimeraCadena method, of class CadenasAlumno.
-     */
     @Test
     public void testPosicionPrimeraCadena() {
         System.out.println("posicionPrimeraCadena");
@@ -175,13 +132,8 @@ public class CadenasAlumnoTest {
         long expResult = 0L;
         long result = instance.posicionPrimeraCadena(cadena, letra);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of reemplazaTodos method, of class CadenasAlumno.
-     */
     @Test
     public void testReemplazaTodos() {
         System.out.println("reemplazaTodos");
@@ -192,13 +144,8 @@ public class CadenasAlumnoTest {
         String expResult = "";
         String result = instance.reemplazaTodos(cadena, regla, cambio);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of extraerSubstring method, of class CadenasAlumno.
-     */
     @Test
     public void testExtraerSubstring_String_int() {
         System.out.println("extraerSubstring");
@@ -208,13 +155,8 @@ public class CadenasAlumnoTest {
         String expResult = "";
         String result = instance.extraerSubstring(cadena, posicionInicio);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of extraerSubstring method, of class CadenasAlumno.
-     */
     @Test
     public void testExtraerSubstring_3args() {
         System.out.println("extraerSubstring");
@@ -225,13 +167,8 @@ public class CadenasAlumnoTest {
         String expResult = "";
         String result = instance.extraerSubstring(cadena, posicionInicio, posicionFinal);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of quitaEspacios method, of class CadenasAlumno.
-     */
     @Test
     public void testQuitaEspacios() {
         System.out.println("quitaEspacios");
@@ -240,13 +177,8 @@ public class CadenasAlumnoTest {
         String expResult = "";
         String result = instance.quitaEspacios(cadena);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of empiezaCon method, of class CadenasAlumno.
-     */
     @Test
     public void testEmpiezaCon() {
         System.out.println("empiezaCon");
@@ -256,13 +188,8 @@ public class CadenasAlumnoTest {
         boolean expResult = false;
         boolean result = instance.empiezaCon(cadena, prefijo);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of acabaEn method, of class CadenasAlumno.
-     */
     @Test
     public void testAcabaEn() {
         System.out.println("acabaEn");
@@ -272,13 +199,8 @@ public class CadenasAlumnoTest {
         boolean expResult = false;
         boolean result = instance.acabaEn(cadena, prefijo);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of concatenaCadenas method, of class CadenasAlumno.
-     */
     @Test
     public void testConcatenaCadenas() {
         System.out.println("concatenaCadenas");
@@ -288,13 +210,8 @@ public class CadenasAlumnoTest {
         String expResult = "";
         String result = instance.concatenaCadenas(cadena1, cadena2);
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of muestraSplit method, of class CadenasAlumno.
-     */
     @Test
     public void testMuestraSplit() {
         System.out.println("muestraSplit");
@@ -302,13 +219,8 @@ public class CadenasAlumnoTest {
         String regla = "";
         CadenasAlumno instance = new CadenasAlumno();
         instance.muestraSplit(cadena, regla);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of muestraSplitLimite method, of class CadenasAlumno.
-     */
     @Test
     public void testMuestraSplitLimite() {
         System.out.println("muestraSplitLimite");
@@ -317,20 +229,13 @@ public class CadenasAlumnoTest {
         int limite = 0;
         CadenasAlumno instance = new CadenasAlumno();
         instance.muestraSplitLimite(cadena, regla, limite);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
-    /**
-     * Test of main method, of class CadenasAlumno.
-     */
     @Test
     public void testMain() {
         System.out.println("main");
         String[] args = null;
         CadenasAlumno.main(args);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
     
 }
